@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/style.css">
+
     <title><?= $judul; ?></title>
   </head>
   <body>
@@ -23,7 +26,6 @@
 		      <a class="nav-item nav-link" href="<?= base_url(); ?>">Home <span class="sr-only">(current)</span></a>
 		      <a class="nav-item nav-link" href="<?= base_url(); ?>mahasiswa">Mahasiswa</a>
 		      <a class="nav-item nav-link" href="#">About</a>
-		      <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
 		    </div>
 		  </div>
 	  </div>
